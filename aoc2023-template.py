@@ -68,7 +68,7 @@ def load_file(fn: str)  -> str:
         ret = ''
         for line in file:   # Loop through the file and add the lines to the return value
             ret += line
-    return file
+    return ret.split('\n')
 
 
 
