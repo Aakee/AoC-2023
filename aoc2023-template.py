@@ -24,6 +24,7 @@ If both command line argument and hard-coded filename is given, the command line
 ======
 GIT REPOSITORY
 ======
+
 The git repository for my solutions for AoC 2023 challenges can be found here: https://github.com/Aakee/AoC-2023
 
 
@@ -70,11 +71,37 @@ def load_file(fn: str)  -> str:
             ret += line
     return ret.split('\n')
 
+# =========================
 
 
+
+
+
+
+# =========================
+
+def part1(data: list) -> int:
+    '''
+    Solution for the part 1.
+    '''
+    ans = 0
+
+    return ans
+
+
+def part2(data: list) -> int:
+    '''
+    Solution for the part 2.
+    '''
+    ans = 0
+
+    return ans
 
 # =========================
 
 if  __name__ == "__main__":
     fn = get_fn()
     data = load_file(fn)
+
+    print(f"Part 1 solution: {part1(data)}")
+    print(f"Part 2 solution: {part2(data)}")
