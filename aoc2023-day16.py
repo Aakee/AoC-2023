@@ -191,3 +191,4 @@ if  __name__ == "__main__":
 
     print(f"Part 1 solution: {part1(data)}")
     print(f"Part 2 solution: {part2(data)}")
+    
